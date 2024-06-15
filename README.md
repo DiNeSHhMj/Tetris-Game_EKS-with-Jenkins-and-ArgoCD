@@ -1,54 +1,80 @@
-# 🚀 End-to-End DevSecOps Kubernetes Project 🌐
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevSecOps Mastery: Deploying Tetris on AWS EKS with Jenkins and ArgoCD</title>
+</head>
+<body>
 
-[![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
-[![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
-![DevSecOps](https://img.shields.io/badge/DevSecOps-Mastery-brightgreen)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blueviolet)
-![Jenkins](https://img.shields.io/badge/Jenkins-Automation-orange)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-Continuous%20Delivery-blue)
-![Docker](https://img.shields.io/badge/Docker-Containerization-blue)
-![Terraform](https://img.shields.io/badge/Terraform-Infrastructure%20as%20Code-9cf)
+<h1>DevSecOps Mastery: Deploying Tetris on AWS EKS with Jenkins and ArgoCD</h1>
 
+<h2>Technologies Used</h2>
+<ul>
+    <li><strong>Infrastructure</strong>: AWS</li>
+    <li><strong>Containerization</strong>: Docker</li>
+    <li><strong>Orchestration</strong>: Kubernetes</li>
+    <li><strong>CI/CD</strong>: Jenkins, Argo CD</li>
+    <li><strong>Security Scanning</strong>: Trivy, SonarQube</li>
+    <li><strong>Kubernetes Management</strong>: Kubectl</li>
+</ul>
 
-![Infrastructure Diagram](assets/Infra.gif)
+<h2>Project Setup</h2>
+<h3>Prerequisites</h3>
+<ul>
+    <li>AWS Account</li>
+    <li>AWS CLI configured</li>
+    <li>Kubectl installed</li>
+    <li>Docker installed</li>
+    <li>Jenkins installed and running</li>
+    <li>ArgoCD installed in Kubernetes cluster</li>
+</ul>
 
-Welcome to an immersive DevSecOps learning experience! This project guides you through deploying a Tetris game on AWS EKS while mastering the art of DevSecOps.
+<h2>Getting Started</h2>
+<h3>Step-by-Step Guide</h3>
+<ol>
+    <li>
+        <strong>Clone the Repository</strong>:
+        <pre><code>git clone &lt;repository_url&gt;
+cd &lt;repository_directory&gt;</code></pre>
+    </li>
+    <li><strong>Install the Required Dependencies</strong>: Ensure you have AWS CLI, Docker, Kubectl, etc., installed.</li>
+    <li><strong>Configure AWS Credentials</strong>: Set up your AWS credentials for CLI.</li>
+    <li><strong>Configure Kubernetes Cluster Access</strong>: Ensure kubectl is configured to interact with your EKS cluster.</li>
+    <li><strong>Configure the Jenkins Pipeline</strong>: Refer to Jenkins documentation for detailed setup instructions.</li>
+    <li><strong>Build and Deploy the Application</strong>: Use the Jenkins pipeline to build and deploy the Tetris application.</li>
+</ol>
 
-## Directories 📂
+<h2>Jenkins Pipeline</h2>
+<ol>
+    <li><strong>Create Pipeline Job</strong>: Create a new pipeline job in Jenkins and configure the Jenkinsfile.</li>
+    <li><strong>Run Pipeline</strong>: Trigger the pipeline to build and deploy the application.</li>
+</ol>
 
-1. **EKS-TF:** Explore Terraform scripts for deploying EKS clusters on AWS.
-2. **Jenkins-Pipeline-Code:** Jenkins pipeline code for automated CI/CD.
-3. **Jenkins-Server-TF:** Terraform scripts for provisioning Jenkins servers on AWS EC2.
-4. **Manifest-file:** Kubernetes manifest files for Tetris application deployment.
-5. **Tetris-V1:** Initial version of the Tetris game application.
-6. **Tetris-V2:** Enhanced version of the Tetris game application.
+<h2>ArgoCD Deployment</h2>
+<ol>
+    <li><strong>Create ArgoCD Application</strong>: Define the ArgoCD application YAML and apply it to deploy the application.
+        <pre><code>kubectl apply -f argocd-application.yaml</code></pre>
+    </li>
+</ol>
 
-## Getting Started 🚀
+<h2>Deployment Outputs</h2>
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/AmanPathak-DevOps/End-to-End-Kubernetes-DevSecOps-Tetris-Project.git
-2. **Explore the Directories:**
-   Navigate into each directory to find detailed scripts, pipelines, and configurations.
+<h3>Jenkins Pipeline Output</h3>
+<img src="images/jenkins_pipeline.png" alt="Jenkins Pipeline">
 
-3. **Follow the Blog:**
-   Implementation details and insights are documented in the associated [blog post](https://amanpathakdevops.medium.com/devsecops-mastery-a-step-by-step-guide-to-deploying-tetris-on-aws-eks-with-jenkins-and-argocd-3adcf21b3120).
+<h3>ArgoCD Dashboard</h3>
+<img src="images/argocd_dashboard.png" alt="ArgoCD Dashboard">
 
-## Tools Explored 🛠️
-1. **Jenkins:** Automated CI/CD pipelines
-2. **ArgoCD:** Continuous deployment to Kubernetes
-3. **Kubernetes:** Orchestration for containerized applications
-4. **Trivy:** Container vulnerability scanner
-5. **OWASP Dependency-Check:** Ensuring secure dependencies
-6. **Docker:** Containerized application deployment
-7. **SonarQube:** Unveiling code quality insights
-8. **Terraform:** Infrastructure as Code for AWS EKS
+<h3>Application Running on EKS</h3>
+<img src="images/tetris_application.png" alt="Tetris Application">
 
-## Blog Implementation 📝
-   To implement this project, follow the step-by-step guide in our detailed [blog post](https://amanpathakdevops.medium.com/devsecops-mastery-a-step-by-step-guide-to-deploying-tetris-on-aws-eks-with-jenkins-and-argocd-3adcf21b3120). Learn how each tool plays a crucial role in achieving DevSecOps excellence.
+<h2>Additional Notes</h2>
+<ul>
+    <li><strong>Monitoring</strong>: Set up monitoring for your application using tools like Prometheus and Grafana.</li>
+    <li><strong>Security</strong>: Implement security best practices such as using IAM roles, security groups, and network policies.</li>
+    <li><strong>Troubleshooting</strong>: Check logs for Jenkins, ArgoCD, and Kubernetes for any issues during deployment.</li>
+</ul>
 
-## Acknowledgments 🙌
-   Special thanks to the open-source community and the contributors who make learning and collaboration an incredible journey.
-
-## License 📄
-   This project is licensed under the Apache-2.0 license see the [LICENSE](http://www.apache.org/licenses/) file for details.
+</body>
+</html>
