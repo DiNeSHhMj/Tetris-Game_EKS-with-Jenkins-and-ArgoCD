@@ -60,14 +60,20 @@ cd &lt;repository_directory&gt;</code></pre>
 
 <h2>Deployment Outputs</h2>
 
-<h3>Jenkins Pipeline Output</h3>
-<img src="images/jenkins_pipeline.png" alt="Jenkins Pipeline">
-
 <h3>ArgoCD Dashboard</h3>
-<img src="images/argocd_dashboard.png" alt="ArgoCD Dashboard">
+<img src="Outputs/Argo CD.png" alt="Argo CD">
 
-<h3>Application Running on EKS</h3>
-<img src="images/tetris_application.png" alt="Tetris Application">
+<h3>Sonarqube Analysis</h3>
+<img src="Outputs/Sonarqube.png" alt="Sonarqube ">
+
+<h3>Docker Hub repo</h3>
+<img src="Outputs/DockerHub.png" alt="Docker Hub">
+
+<h3>Jenkins Job</h3>
+<img src="Outputs/JenkinsJob.png" alt="Jenkins Job">
+
+<h3>The Tetris Game</h3>
+<img src="Outputs/GameOutput.png" alt="ArgoCD Dashboard">
 
 <h2>Additional Notes</h2>
 <ul>
