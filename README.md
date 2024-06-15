@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>DevSecOps Mastery: Deploying Tetris on AWS EKS with Jenkins and ArgoCD</h1>
+<h1>DevSecOps: Deploying Tetris on AWS EKS with Jenkins and ArgoCD</h1>
 <p>This project demonstrates a DevSecOps pipeline to deploy the Tetris game on AWS EKS using Jenkins and ArgoCD.</p>
 
 <h2>Technologies Used</h2>
