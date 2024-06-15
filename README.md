@@ -59,6 +59,7 @@ cd &lt;repository_directory&gt;</code></pre>
 </ol>
 
 <h2>Deployment Outputs</h2>
+  <p>This section showcases screenshots from various stages of the deployment process.</p>
 
 <h3>ArgoCD Dashboard</h3>
 <img src="Outputs/Argo CD.png" alt="Argo CD">
