@@ -47,7 +47,7 @@ cd &lt;repository_directory&gt;</code></pre>
 
 <h2>Jenkins Pipeline</h2>
 <ol>
-    <li><strong>Create Pipeline Job</strong>: Create a new pipeline job in Jenkins and configure the Jenkinsfile.</li> -->
+    <li><strong>Create Pipeline Job</strong>: Create a new pipeline job in Jenkins and configure the Jenkinsfile.</li>
     <li><strong>Run Pipeline</strong>: Trigger the pipeline to build and deploy the application.</li>
 </ol>
 
