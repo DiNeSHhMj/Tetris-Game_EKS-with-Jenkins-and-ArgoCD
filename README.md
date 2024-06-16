@@ -9,6 +9,11 @@
 <h1>DevSecOps: Deploying Tetris on AWS EKS with Jenkins and ArgoCD</h1>
 <p>This project demonstrates a DevSecOps pipeline to deploy the Tetris game on AWS EKS using Jenkins and ArgoCD.</p>
 
+
+<section>
+  <img src="Outputs/Tetris- flowchart.svg" alt="Tetris- flowchart">
+</section>
+  
 <h2>Technologies Used</h2>
 <ul>
     <li><strong>Infrastructure</strong>: AWS</li>
