@@ -83,7 +83,7 @@ cd &lt;repository_directory&gt;</code></pre>
 
 <h2>Additional Notes</h2>
 <ul>
-    <li><strong>Monitoring</strong>: Set up monitoring for your application using tools like Prometheus and Grafana.</li>
+
     <li><strong>Security</strong>: Implement security best practices such as using IAM roles, security groups, and network policies.</li>
     <li><strong>Troubleshooting</strong>: Check logs for Jenkins, ArgoCD, and Kubernetes for any issues during deployment.</li>
 </ul>
